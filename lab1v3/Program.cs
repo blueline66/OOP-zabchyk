@@ -1,5 +1,5 @@
-﻿using System;
-
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
 class Student
 {
     private string name;
@@ -24,8 +24,7 @@ class Student
         Console.WriteLine($"Студент: {name}, ID: {id}, Середній бал: {AverageMark}");
     }
 }
-
-class Program
+partial class Program
 {
     static void Main(string[] args)
     {
